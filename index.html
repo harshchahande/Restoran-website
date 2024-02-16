@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restoran</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo2.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/116af2a26d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- section 1 -->
+    <nav class=" navbar fixed-top  navbar-expand-lg " id="s1-nav">
+        <div class="container ">
+            <a class="navbar-brand fs-1 rounded-pill px-4" href="#" style="color: #f5a80e; "><i
+                    class="fa-solid fa-utensils fa-md " style="color: #f5a80e;"></i> Restoran
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item  nav-link">
+                        <a class="s1-a text-decoration-none" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item  nav-link">
+                        <a class="s1-a text-decoration-none" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="s1-a text-decoration-none" href="#">SERVICE
+                        </a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="s1-a text-decoration-none" href="#">
+                            MENU
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown nav-link">
+                        <a class="s1-a text-decoration-none  dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="s1-a text-decoration-none " href="#">CONTACT
+                        </a>
+                    </li>
+
+                </ul>
+                <form class="d-flex px-3" role="search">
+                    <button class="btn text-light" type="submit" style="background-color: #f5a80e;">BOOK A
+                        TABLE</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- section 2 -->
+    <section class="section2 ">
+        <div class=" container">
+            <div class="row">
+                <div class="col col-lg-6 col-md-12 col-ms col-12 pt-5">
+                    <div class="s1-col text-light">
+                        <h1 class="s2-h">Enjoy Our
+                            Delicious Meal</h1>
+                        <p class="s2-h py-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                            amet
+                            diam et
+                            eos. Clita
+                            erat
+                            ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <button class="btn btn-outline-light py-3 px-5" type="submit"
+                            style="background-color: #f5a80e;">BOOK
+                            A TABLE</button>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-ms col-12 p-5 mt-4">
+                    <div class="p-5 ">
+                        <img class="s2-img" src="img/hero.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 -->
+    <section class="section container my-5 py-5" onmouseover="s2();">
+        <div class=" row">
+            <div class="col col-lg-3 col-md-6 col-ms col-12 ">
+                <div class="s3-d shadow p-3 mb-5  rounded py-4" onmouseover="s3();" onmouseout="s31();" id="s3-d1">
+                    <i class="s3-icon fa-solid fa-user-tie " style="color: #f5a80e;" id="s3-icon1"></i>
+                    <h4 class="pt-4">Master Chefs</h4>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-md-6 col-ms col-12">
+                <div class="s3-d  shadow p-3 mb-5 rounded py-4" onmouseover="s32();" onmouseout="s33();" id="s3-d2">
+                    <i class="s3-icon fa-solid fa-utensils" style="color: #f5a80e;" id="s3-icon2"></i>
+                    <h4 class="pt-4">Master Chefs</h4>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+
+            <div class="col col-lg-3 col-md-6 col-ms col-12 ">
+                <div class="s3-d  shadow p-3 mb-5 rounded py-4" onmouseover="s34();" onmouseout="s35();" id="s3-d3">
+                    <i class="s3-icon fa-solid fa-cart-plus " style="color: #f5a80e;" id="s3-icon3"></i>
+                    <h4 class="pt-4">Master Chefs</h4>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-md-6 col-ms col-12 ">
+                <div class="s3-d  shadow p-3 mb-5  rounded py-4" onmouseover="s36();" onmouseout="s37();" id="s3-d4">
+                    <i class="s3-icon fa-solid fa-headset" style="color: #f5a80e;" id="s3-icon4"></i>
+                    <h4 class="pt-4">Master Chefs</h4>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 4 -->
+    <section class="section container my-5 py-5" onmouseover="fun()">
+        <div class=" row">
+            <div class="s3-c col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="row">
+                    <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                        <img src="img/about-1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col col-lg-6 col-md-12 col-ms col-12 pt-4">
+                        <div class="pt-5">
+                            <img src="img/about-2.jpg" alt="" width="80%">
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 col-md-12 col-ms col-12 mt-3">
+                        <div class="d-flex justify-content-end">
+                            <img src="img/about-3.jpg" alt="" width="80%">
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 col-md-12 col-ms col-12 mt-3 pt-2">
+                        <img src="img/about-4.jpg" alt="" width="100%">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col col-lg-6 col-md-12 col-ms col-12  py-5">
+                <div class="py-5">
+                    <h4 style="color: #f5a80e;">About Us </h4>
+                    <h1>Welcome to <i class="fa-solid fa-utensils fa-md " style="color: #f5a80e;"></i> Restoran</h1>
+                    <p class="pt-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos erat
+                        ipsum
+                        et lorem et sit, sed stet lorem sit.</p>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
+                        erat
+                        ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+
+                    <div class="row py-3">
+                        <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+
+                            <div class="row">
+                                <div class="s3-c1 col col-lg-2 ">
+                                    <h1 id="s3-h1"></h1>
+                                </div>
+                                <div class="col col-lg-10   ">
+                                    <p>Years of <br>
+                                        <span><b>EXPERIENCE</b> </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+
+                            <div class="row">
+                                <div class="s3-c1 col col-lg-2 ">
+                                    <h1 id="s3-h2"></h1>
+                                </div>
+                                <div class="col col-lg-10   ">
+                                    <p>Years of <br>
+                                        <span><b>EXPERIENCE</b> </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-light py-3 px-5 mb-4" type="submit"
+                        style="background-color: #f5a80e;">BOOK
+                        A TABLE</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- section 5 -->
+    <section class="section container my-5 py-5">
+        <h4 class="text-center">Food Menu</h4>
+        <h1 class="text-center">Most Popular Items</h1>
+
+    </section>
+
+    <!-- section 6 -->
+    <section class="section my-3 container">
+        <div class="row">
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-1.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-2.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-3.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-4.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-5.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-6.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-7.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <div class="d-flex">
+                    <div class="flex-shrink-0">
+                        <img src="img/menu-8.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5>Chicken Burger <span class="s5-s">$115</span></h5>
+                        <hr>
+                        <i> Ipsum ipsum clita erat amet dolor justo diam</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 7 -->
+    <section class="section container my-5 py-5">
+        <div class="row">
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <img src="img/k.jpg" alt="" width="100%">
+            </div>
+            <div class="col col-lg-6 col-md-12 col-ms col-12 ">
+                <h5 style="color: #f5a80e;">Reservation</h5>
+                <h1 class="pb-3">Book A Table Online
+                </h1>
+                <form class="row g-3">
+                    <div class="col-md-6">
+
+                        <input type="email" class="form-control py-3" id="inputEmail4" placeholder="You Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="password" class="form-control py-3" id="inputPassword4" placeholder="You Email">
+                    </div>
+                    <div class="col-md-6">
+
+                        <input type="email" class="form-control py-3" id="inputEmail4" placeholder="You Mobile">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group ">
+                            <select class="form-select py-3" id="inputGroupSelect04"
+                                aria-label="Example select with button addon">
+                                <option selected>Select A service</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Comments</label>
+                        </div>
+                    </div>
+                </form>
+
+                <button class="btn btn-outline-light py-3 px-5 my-4 " type="submit"
+                    style="background-color: #f5a80e;">Submit</button>
+            </div>
+        </div>
+    </section>
+    <!-- section 8 -->
+    <section class="section7 container">
+        <div class="text-center pb-5">
+            <h5 style="color: #f5a80e;">Team Members</h5>
+            <h1>Our Master Chefs</h1>
+        </div>
+        <div class="row">
+            <div class=" col-lg-3 col-md-6 col-ms-12 col-12  ">
+                <div class="card mb-3">
+                    <img src="img/team-1.jpg" class="card-img-top rounded-pill p-4" alt="..." width="100%">
+                    <div class="card-body text-center">
+                        <h5>Full Name</h5>
+                        <p class="card-text">Designation</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-ms-12 col-12  ">
+                <div class="card  mb-3">
+                    <img src="img/team-2.jpg" class="card-img-top  rounded-pill p-4" alt="..." width="100%">
+                    <div class="card-body text-center">
+                        <h5>Full Name</h5>
+                        <p class="card-text">Designation</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-ms-12 col-12  ">
+                <div class="card  mb-3">
+                    <img src="img/team-3.jpg" class="card-img-top  rounded-pill p-4" alt="..." width="100%">
+                    <div class="card-body text-center">
+                        <h5>Full Name</h5>
+                        <p class="card-text">Designation</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-ms-12 col-12  ">
+                <div class="card  mb-3">
+                    <img src="img/team-4.jpg" class="card-img-top  rounded-pill p-4" alt="..." width="100%">
+                    <div class="card-body text-center">
+                        <h5>Full Name</h5>
+                        <p class="card-text">Designation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 9 -->
+    <section class="section container mt-5 py-5">
+        <div class="text-center pb-5">
+            <p style="color: #df9a07;"> CLIENT'S REVIEW</p>
+            <h1>More Than 20000+<br>Customers Trusted Us</h1>
+
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill " style="border: 5px solid  antiquewhite;"
+                                            src="img/testimonial-1.jpg" class="img-fluid rounded-start" alt="..."
+                                            width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill" src="img/testimonial-2.jpg"
+                                            style="border: 5px solid  antiquewhite;" class="img-fluid rounded-start"
+                                            alt="..." width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill" src="img/testimonial-3.jpg"
+                                            style="border: 5px solid  antiquewhite;" class="img-fluid rounded-start"
+                                            alt="..." width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill " style="border: 5px solid  antiquewhite;"
+                                            src="img/testimonial-4.jpg" class="img-fluid rounded-start" alt="..."
+                                            width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill" src="img/testimonial-2.jpg"
+                                            style="border: 5px solid  antiquewhite;" class="img-fluid rounded-start"
+                                            alt="..." width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill" src="img/testimonial-3.jpg"
+                                            style="border: 5px solid  antiquewhite;" class="img-fluid rounded-start"
+                                            alt="..." width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill " style="border: 5px solid  antiquewhite;"
+                                            src="img/testimonial-4.jpg" class="img-fluid rounded-start" alt="..."
+                                            width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill" src="img/testimonial-2.jpg"
+                                            style="border: 5px solid  antiquewhite;" class="img-fluid rounded-start"
+                                            alt="..." width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-6 col-ms-12 col-12  ">
+                            <div class="s8-y  card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 ps-3 pt-3">
+
+                                        <img class="rounded-pill" src="img/testimonial-3.jpg"
+                                            style="border: 5px solid  antiquewhite;" class="img-fluid rounded-start"
+                                            alt="..." width="60px">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <h5>Cline Name</h5>
+                                            <p>profession</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    natus
+                                    veniam? Culpa
+                                    dolorum fuga harum vel earum! Id, .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- section 10 -->
+    <section class="section10 r mt-5 pt-5" style="background-color: rgb(26,42,54)" onmouseover="s10();">
+        <div class="container text-light py-5">
+            <div class="row">
+                <div class=" col-lg-3 col-md-6 col-ms-12 col-12  " style="color: rgb(135, 136, 136);">
+                    <h4 class="pb-4 text-light"> Contact</h4>
+                    <p><i class="fa-solid fa-location-dot fa-lg"></i> 123 Street, New York, USA
+                    </p>
+                    <p><i class="fa-solid fa-phone fa-md"></i> +012 345 67890</p>
+                    <p><i class="fa-solid fa-envelope fa-md"></i> info@example.com</p>
+                    <span><i class="fa-brands fa-twitter fa-md border py-3 px-3 rounded-pill"></i></span>
+                    <span><i class="fa-brands fa-facebook-f fa-md border py-3 px-3 rounded-pill"></i></span>
+                    <span><i class="fa-brands fa-youtube fa-md border py-3 px-3 rounded-pill"></i></span>
+                    <span><i class="fa-brands fa-linkedin fa-md border py-3 px-3 rounded-pill"></i></span>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-ms-12 col-12  " style="color: rgb(135, 136, 136);">
+                    <h4 class="pb-4 text-light">Company</h4>
+                    <p>> About Us</p>
+                    <p>> Contact Us</p>
+                    <p>> Our Services</p>
+                    <p>> Terms & Conditions</p>
+                    <p>> Support</p>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-ms-12 col-12   " style="color: rgb(135, 136, 136);">
+                    <h4 class="pb-4 text-light">Opening</h4>
+                    <h6>Monday - Saturday</h6>
+                    <p>09AM - 09PM</p>
+                    <h6>Sunday</h6>
+                    <p>10AM - 08PM</p>
+
+                </div>
+                <div class=" col-lg-3 col-md-6 col-ms-12 col-12  " style="color: rgb(135, 136, 136);">
+                    <h4 class="pb-4 text-light">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="You Email"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-success" type="button" id="button-addon2">SingUp</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- section 11 -->
+    <section class="section pt-5" style="background-color: rgb(26,42,54);" id="s11-s">
+        <div class="container text-light">
+            <hr style="color: #df9a07;">
+            <div class="row">
+                <div class=" col-lg-6 col-md-12 col-ms-12 col-12  ">
+                    <h6 style="color: rgb(135, 136, 136);">© Your Site Name, All Right Reserved. Designed By HTML Codex
+                    </h6>
+                    <h6> Distributed By ThemeWagon</h6>
+                </div>
+                <div class=" col-lg-6 col-md-12 col-ms-12 col-12  text-end">
+                    <h6 style="color: rgb(135, 136, 136);">
+                        <span class="px-2 border-end">Home</span><span class="px-2 border-end"> Cookies</span><span
+                            class="px-2 border-end">
+                            Help</span><span class="px-2">
+                            FQAs</span>
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
